@@ -133,7 +133,7 @@ std::string eosio::public_key_to_string(const public_key& key) {
 
 public_key eosio::public_key_from_string(std::string_view s) {
     public_key result;
-    if (s.substr(0, 3) == "EOS") {
+    if (s.substr(0, 3) == "VEX") {
         return string_to_key<public_key>(s.substr(3), key_type::k1, "");
     } else if (s.substr(0, 7) == "PUB_K1_") {
         return string_to_key<public_key>(s.substr(7), key_type::k1, "K1");

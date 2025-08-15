@@ -204,7 +204,7 @@ int main() {
       test(block_timestamp{i}, abi, new_abi);
    }
    test(block_timestamp{0xFFFFFFFFu}, abi, new_abi);
-   test(eosio::name("eosio"), abi, new_abi);
+   test(eosio::name("vexcore"), abi, new_abi);
    test(eosio::name(), abi, new_abi);
    test(bytes(), abi, new_abi);
    test(bytes{{0, 0, 0, 0}}, abi, new_abi);

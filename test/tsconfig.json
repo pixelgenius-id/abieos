@@ -8,7 +8,7 @@
     },
     "include": [
         "src/*.ts",
-        "../external/eosjs2/src/eosjs2-numeric.ts",
-        "../external/eosjs2/src/eosjs2-serialize.ts"
+        "../external/vexjs2/src/vexjs2-numeric.ts",
+        "../external/vexjs2/src/vexjs2-serialize.ts"
     ]
 }

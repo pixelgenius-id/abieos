@@ -88,7 +88,7 @@ std::string retrieveFileContents(const std::string &filename ) {
 
 int main(int argc, char* argv[]) {
     // static string for our contract id
-    static const char* contract_name = "eosio";
+    static const char* contract_name = "vexcore";
     // input string to transform to hex code
     std::string json;
     // schema name ex: bool

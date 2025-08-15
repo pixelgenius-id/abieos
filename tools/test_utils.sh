@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-Transaction_ABI="../external/eosjs/src/transaction.abi.json"
+Transaction_ABI="../external/vexjs/src/transaction.abi.json"
 
 ######################################
 PREFIX="Hex from JSON:"
